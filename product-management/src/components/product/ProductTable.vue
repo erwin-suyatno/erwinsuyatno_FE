@@ -94,7 +94,7 @@
           <AppIcon name="eye" size="small" />
           <span class="button-text">View</span>
         </AppButton>
-        <AppButton variant="outline" size="small" @click="$emit('edit', row.id)" :title="'Edit Product'">
+        <AppButton variant="orange" size="small" @click="$emit('edit', row.id)" :title="'Edit Product'">
           <AppIcon name="edit" size="small" />
           <span class="button-text">Edit</span>
         </AppButton>

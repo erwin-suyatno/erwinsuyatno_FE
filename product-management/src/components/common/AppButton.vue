@@ -19,7 +19,7 @@ defineProps({
   variant: {
     type: String,
     default: 'primary',
-    validator: (value) => ['primary', 'secondary', 'outline', 'danger'].includes(value)
+    validator: (value) => ['primary', 'secondary', 'outline', 'danger', 'orange', 'warning'].includes(value)
   },
   size: {
     type: String,
@@ -105,6 +105,17 @@ defineEmits(['click'])
 
 .variant-danger:hover:not(:disabled) {
   background: #DC2626;
+}
+
+.variant-orange,
+.variant-warning {
+  background: var(--color-orange);
+  color: white;
+}
+
+.variant-orange:hover:not(:disabled),
+.variant-warning:hover:not(:disabled) {
+  background: var(--color-orange-hover);
 }
 
 .spinner {
