@@ -1,0 +1,34 @@
+:root {
+  /* Primary Colors */
+  --color-primary-red: #DC2626;
+  --color-primary-red-hover: #B91C1C;
+  --color-primary-red-light: #FEE2E2;
+  
+  /* Navigation Colors */
+  --color-navy: #1E3A8A;
+  --color-navy-dark: #1E40AF;
+  --color-navy-light: #3B82F6;
+  
+  /* Accent Colors */
+  --color-orange: #F97316;
+  --color-orange-hover: #EA580C;
+  --color-orange-light: #FFEDD5;
+  
+  /* Neutral Colors */
+  --color-gray-50: #F9FAFB;
+  --color-gray-100: #F3F4F6;
+  --color-gray-200: #E5E7EB;
+  --color-gray-300: #D1D5DB;
+  --color-gray-400: #9CA3AF;
+  --color-gray-500: #6B7280;
+  --color-gray-600: #4B5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1F2937;
+  --color-gray-900: #111827;
+  
+  /* Semantic Colors */
+  --color-success: #10B981;
+  --color-error: #EF4444;
+  --color-warning: #F59E0B;
+  --color-info: #3B82F6;
+}
